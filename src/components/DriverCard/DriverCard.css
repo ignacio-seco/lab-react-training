@@ -1,0 +1,34 @@
+.driverCard{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(68, 129, 242);
+    margin: 2% 0 2% 2%;
+    padding: 0.8%;
+    border-radius: 20px;
+
+}
+
+.driverPhoto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.driverInformation{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    color:white;
+    margin:0 0 0 2%;
+}
+.driverName{
+    font-size: 2rem;
+    margin:0;
+    font-weight: 700;
+}
+.vehicle{
+    font-size: 1.2rem;
+}
