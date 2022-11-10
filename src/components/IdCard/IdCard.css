@@ -13,8 +13,8 @@ text-align: left;
     font-weight: 700;
 }
 .pictureCard{
-    width:90%;
-    margin:3%;
+    width:150px;
+    height: 150px;
     display: flex;
     align-items: flex-start;
     align-content: flex-start;
@@ -27,6 +27,6 @@ text-align: left;
     justify-items: center;
     align-items: center;
     align-content: center;
-    width:35%
+    margin: 1%;
     
 }
