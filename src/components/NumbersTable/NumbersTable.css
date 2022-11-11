@@ -1,0 +1,11 @@
+.red{
+    background-color: red;
+    border-style: solid;
+}
+.red,
+.white{
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    text-align: center;
+}
