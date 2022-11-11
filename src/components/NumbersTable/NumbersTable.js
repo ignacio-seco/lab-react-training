@@ -2,14 +2,15 @@ import './NumbersTable.css';
 
 function NumbersTable(props) {
   let squareStyle = {
-    width: `${100 / props.cells}%`,
+    width: `${90 / props.cells}%`,
     display: `inline-block`,
-    paddingBottom: `${50 / props.cells}%`,
-    paddingTop: `${50 / props.cells}%`,
+    paddingBottom: `${45 / props.cells}%`,
+    paddingTop: `${45 / props.cells}%`,
   };
   let tableStyle = {
-    width: `100%`,
+    width: `90%`,
     borderCollapse: `collapse`,
+    margin:`2% 0`
   };
 
   let nArray = [];
